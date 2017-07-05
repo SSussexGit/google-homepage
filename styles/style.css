@@ -11,9 +11,10 @@ a {
   color : #3e3a3a;
   font-family : arial, sans-serif; 
   font-size : 13px; 
+  text-decoration: none; 
 }
 
-a:hover {
+a:hover {  
   text-decoration : underline;
 }
 
@@ -24,13 +25,16 @@ a:hover {
   height : 40%;
   margin : -20% 0 0 0;
   padding-top : 50px; 
+  text-align : center; 
+  align-content : center; 
 }
 
 #search-area {
   width : 550px;
   height : 35px;
   border : 1px solid #e5ece7;
-  box-shadow : 0 1px 3px #a9b1ac;
+  box-shadow : 0 1px 3px #a9b1ac; 
+  margin: 0 auto; 
 }
 
 #search-area:hover {
@@ -101,3 +105,4 @@ a:hover {
 .right {
   float : right;
 }
+
